@@ -1,0 +1,237 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color:rgb(69, 82, 110) ;
+}
+
+header{
+
+
+    display: flex;
+    flex-direction: column;
+   font-weight: 100px;
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+
+
+}
+.oferta{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+img{
+    border:2px solid grey ;
+    background-color: grey;
+
+    display: block;
+    width:110px;
+    align-items: center;
+    justify-content: center;
+    max-width: 600pxs;
+    min-width: 300px;
+    
+
+
+}
+
+header *{
+
+     width: 60%;
+}
+
+.first-name{
+
+   
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.main-nav{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+
+} 
+.nav-item{
+    
+    background-color: white;
+    font-size: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+  
+    width: 100%;
+/* 0X
+
+ */
+}
+
+aside{
+
+
+  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.container{
+
+
+  
+
+    display: flex;
+   justify-content: center;
+   
+  
+    align-items: center;
+   
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container article{
+
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+   
+      text-align: center;
+
+
+}
+
+
+ article img{
+    max-width: 600px;
+    width: 50px;
+    min-width: 320px;
+}
+
+.container p{
+   
+    width: 50%;
+    flex-direction: column;
+}
+.contact{
+    text-align: center;
+}
+.card{
+    padding-top: 5px;;
+}
+p{
+   
+    line-height: 30px;
+
+  
+}
+footer{
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.jane{
+    margin-right: auto;
+}
+/* codul pentru tableta */
+@media (min-width:720px){
+
+
+    .main-nav{
+
+        flex-direction: row;
+        gap:10px;
+    }
+
+    aside{
+        flex-direction:row-reverse;
+       
+    }
+
+
+    .container{
+       
+       
+
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        gap:20px;
+    }
+ 
+    .card{
+      
+        width: 40%;
+        
+    }
+    .hi{
+     
+
+     gap:30px;/*spatiu intre boxuri*/
+    }
+}
+
+/*codul pentru desktop*/
+@media (min-width:1200px){
+header{
+   
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+    
+}
+#first-name{
+
+    align-items: left;
+    justify-content:left;
+   
+
+}
+.nav-item{
+    align-items: flex-start;
+
+}
+
+
+
+.card{
+   
+    background-color: white;
+    width: 30%;
+    gap:0%;
+    
+}
+.hi{
+    width: 80%;
+    gap:10%;
+}
+.student{
+    margin-left: 5%;
+width: 10%;
+}
+
+body{
+background-color: antiquewhite;
+}
+main{
+    background-color: white;
+}
+}
