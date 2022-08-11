@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color:rgb(69, 82, 110) ;
 }
 
@@ -42,7 +42,7 @@ header *{
      width: 60%;
 }
 
-.first-name{
+.name{
 
    
     text-align: center;
@@ -147,7 +147,7 @@ footer{
     
 
 }
-.jane{
+.rent a car{
     margin-right: auto;
 }
 /* codul pentru tableta */
@@ -219,11 +219,11 @@ header{
     gap:0%;
     
 }
-.hi{
+.oferta{
     width: 80%;
     gap:10%;
 }
-.student{
+.car{
     margin-left: 5%;
 width: 10%;
 }
